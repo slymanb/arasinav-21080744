@@ -1,7 +1,7 @@
 ---
-title: "Çalışmanızın Başlığı"
+title: "İstanbul'da 7.5 Mw Büyüklüğünde Gece Olacak Deprem Senaryosuna Göre Yapılan Öngörülerin Analizi"
 author: 
-  - Süleyman Karacif[^1]
+  - Süleyman KARACİF[^1]
 bibliography: ../bibliography/biblio.bib
 csl: ../csl/apa-tr.csl
 header-includes:
@@ -25,16 +25,14 @@ urlcolor: blue
 fontsize: 12pt
 biblio-style: apalike
 ---
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
 ```
 
 <!-- ======================================================================= -->
-
 <!-- ============================== NOTLAR ================================= -->
-
 <!-- ======================================================================= -->
+[^1]: 21080744
 
 # Vize Hakkında Önemli Bilgiler
 
@@ -45,24 +43,22 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 \colorbox{WildStrawberry}{Daha fazla bilgi için proje klasöründeki README.md dosyasını okuyunuz.}
 
 # Giriş
+Bu taslak size proje ödevinizi yazarken yardımcı olması amacıyla oluşturulmuştur. Ödevlerinizde, makalelerinizde, sunumlarınızda ve projelerinizde kullandığınız tüm bilgi kaynaklarına atıfta bulunmalısınız. Alıntı ve gönderme yapmak okuyuculara çalışmanızda kullandığınız/başvurduğunuz  kaynaklara ulaşma imkanı sağlar. **Her ne kadar kendi sözlerinizi kullanıyor olsanız da, başkalarına ait fikirleri çalışmanızda aktarıyorsanız bu fikirlerin kaynağını belgelemek zorundasınız. Aksi takdirde akademik intihal yapmış olursunuz.** Yazım konusunda @aydinonat:2007'ye başvurabilirsiniz. 
 
-Bu taslak size proje ödevinizi yazarken yardımcı olması amacıyla oluşturulmuştur. Ödevlerinizde, makalelerinizde, sunumlarınızda ve projelerinizde kullandığınız tüm bilgi kaynaklarına atıfta bulunmalısınız. Alıntı ve gönderme yapmak okuyuculara çalışmanızda kullandığınız/başvurduğunuz kaynaklara ulaşma imkanı sağlar. **Her ne kadar kendi sözlerinizi kullanıyor olsanız da, başkalarına ait fikirleri çalışmanızda aktarıyorsanız bu fikirlerin kaynağını belgelemek zorundasınız. Aksi takdirde akademik intihal yapmış olursunuz.** Yazım konusunda @aydinonat:2007'ye başvurabilirsiniz.
 
-Proje ödevinizde yer alan başlıkların bu metinde yer alan başlıkları kesinlikle içermesi gerekmektedir (doğal olarak ilk bölüm başlığı hariç). Burada kullanılan başlıklar haricinde farklı alt başlıklar da kullanabilirsiniz. Projenizi yazarken bu dosyayı taslak olarak kullanıp içeriğini projenize uyarlayınız.
+## Veri Setinin İçeriğine Dair Açıklamalar
+Bu çalışmada; İBB Açık Veri Portalı (https://data.ibb.gov.tr/dataset/deprem-senaryosu-analiz-sonuclari) web sayfasından, Deprem Risk Yönetimi ve Kentsel İyileştirme Dairesi Başkanlığı tarafından yayımlanan 2 Mart 2023 güncelleme tarihli,  "Deprem Senaryosu Analiz Sonuçları" isimli veri seti kullanılmıştır. Bu veri seti, "id, ilçe adı, mahalle adı, mahalle-köy uavt kodu, çok ağır hasarlı bina sayısı, ağır hasarlı bina sayısı, orta hasarlı bina sayısı, hafif hasarlı bina sayısı, can kaybı sayısı, ağır yaralı sayısı, hastanede tedavi sayısı, hafif yaralı sayısı, doğalgaz boru hasarı, içme suyu boru hasarı, atık su boru hasarı, geçici barınma" değişkenlerini ve İstanbul'un 39 İlçesinde bulunan 959 mahallesine dair 959 gözlem verisini içermektedir.
 
 ## Çalışmanın Amacı
+Bu analiz ile, olası İstanbul depreminin etkileyeceği ilçe ve mahallelerde  amaçlanmıştır.
 
-Bu bölümde yaptığınız çalışmanın amacından ve öneminden birkaç paragraf ile bahsediniz.
-
-## Literatür
-
+## Literatür 
 Bu bölümde konu ile ilgili olarak okuduğunuz makaleleri referans vererek tartışınız. **Her makaleyi ayrı başlık altında tek tek özetlemeyiniz.** Literatür taramasında **en az dört** makaleye atıf yapılması ve bu makalelerden **en az ikisinin İngilizce** olması gerekmektedir.
 
-***Taslakta bu cümleden sonra yer alan hiçbir şey silinmemelidir.***
+
+**_Taslakta bu cümleden sonra yer alan hiçbir şey silinmemelidir._**
 
 \newpage
-
 # Kaynakça {#references}
+<div id="refs"></div>
 
-::: {#refs}
-:::
